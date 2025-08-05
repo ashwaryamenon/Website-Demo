@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Portfolio : Ashwarya Menon</title>
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+</head>
+<body>
+  <i class="bi bi-emoji-sunglasses-fill" id="toggle"></i>
+  <header class="header">
+    <h1>Ashwarya Menon</h1>
+  </header>
+  <section class="hero section">
+    <canvas id="neptune-canvas"></canvas>
+    <h1 id="typewriter" class="typewriter"></h1>
+    <p>Explore the mysteries of the ice giant with cutting-edge 3D visualization.</p>
+    <button class="cta" onclick="window.location.href='message.html'">Step In</button>
+  </section>
+  <section id="about" class="section">
+    <div class="parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1465101162946-4377e57745c3');"></div>
+    <h2>About Me</h2>
+    <p>Passionate developer creating cosmic experiences.</p>
+  </section>
+  <section id="projects" class="section">
+    <div class="parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1454789476660-53eb23ba5907');"></div>
+    <h2>Projects</h2>
+    <div class="project-container">
+      <div class="project-card">3D Solar System</div>
+      <div class="project-card">Galaxy Simulator</div>
+      <div class="project-card">Star Map</div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
